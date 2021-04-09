@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>API</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">API Cursos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cadastro
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Cursos</a></li>
+                <li><a class="dropdown-item" href="#">nivel</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="container">
+      <h1>Cursos  </h1>
+     
+      <section class="d-flex m-3 row filters">
+        <div class="col-md-2">
+          <select class="form-select">
+            <option value="1">Tecnico Superior</option>
+            <option value="2">Graduação Superior</option>
+          </select>
+        </div>
+        <div class="col-md-5">
+          <input type="search" class="form-control" placeholder="Pesquisar Cursos">
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-primary btn-buscar">Buscar</button>
+        </div>
+        
+        
+      </section>
+      <div class="d-flex justify-content-center">
+        <div class="spinner-grow text-primary"  role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+        <div class="d-flex justify-content-center  api-data">
+          
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/axios.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

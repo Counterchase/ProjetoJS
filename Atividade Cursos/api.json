@@ -1,0 +1,74 @@
+{
+  "Cursos": [
+    {
+      "id": 1,
+      "curso": "Tecnologia em Análise e Desenvilvimento de Sistemas",
+      "duracao": "6 semestres",
+      "nivel": "Tecnico Superior",
+      "municipio": "Navirai"
+    },
+    {
+      "id": 2,
+      "curso": "Engenharia de Computação",
+      "duracao": "10 semestres",
+      "nivel": "Graduação Superior",
+      "municipio": "Tres Lagoas"
+    },
+    {
+      "id": 3,
+      "curso": "Arquitetura",
+      "duracao": "10 semestres",
+      "nivel": "Graduação Superior",
+      "municipio": "Tres Lagoas"
+    },
+    {
+      "id": 4,
+      "curso": "Administração",
+      "duracao": "10 semestres",
+      "nivel": "Graduação Superior",
+      "municipio": "Tres Lagoas"
+    },
+    {
+      "id": 5,
+      "curso": "Pedagogia",
+      "duracao": "10 semestres",
+      "nivel": "Graduação Superior",
+      "municipio": "Tres Lagoas"
+    },
+    {
+      "id": 6,
+      "curso": "Direito",
+      "duracao": "10 semestres",
+      "nivel": "Graduação Superior",
+      "municipio": "Coxim"
+    },
+    {
+      "id": 7,
+      "curso": "Matematica",
+      "duracao": "10 semestres",
+      "nivel": "Graduação Superior",
+      "municipio": "Coxim"
+    },
+    {
+      "id": 8,
+      "curso": "Letras",
+      "duracao": "10 semestres",
+      "nivel": "Graduação Superior",
+      "municipio": "Coxim"
+    },
+    {
+      "id": 9,
+      "curso": "Artes Cenicas",
+      "duracao": "10 semestres",
+      "nivel": "Graduação Superior",
+      "municipio": "Coxim"
+    },
+    {
+      "id": 10,
+      "curso": "Historia",
+      "duracao": "10 semestres",
+      "nivel": "Graduação Superior",
+      "municipio": "Coxim"
+    }
+  ]
+}
